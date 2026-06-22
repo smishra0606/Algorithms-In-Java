@@ -11,6 +11,8 @@ package JAVA;
 
 import java.util.Scanner;
 
+import javax.sound.midi.SysexMessage;
+
 public class Basics{
     public static void main(String[] args) {
 
