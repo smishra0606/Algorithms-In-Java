@@ -11,6 +11,15 @@ public class basics {
         System.out.println("Front element: " + queue.peek());
         System.out.println("Removed element: " + queue.remove());
         System.out.println("Queue after remove: " + queue);
+        System.out.println("Is queue empty? " + queue.isEmpty());
+        System.out.println("Queue size: " + queue.size());
+        System.out.println("Iterating through queue:");
+        for (Integer element : queue) {
+            System.out.println(element);
+        }   
+        
     }
     
 }
+
+    
