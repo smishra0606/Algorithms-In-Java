@@ -13,10 +13,18 @@ public class Basics{
             right=null;
         }
     }
-
+    private static void inOrder(Node root){
+        if(root==null){
+            return;
+        }
+        inOrder(root.left);
+        System.out.print(root.data+" ");
+        inOrder(root.right);
+    }
     private static void main(String[] args){
         Node root=new Node(1);
         root.left=new Node(2);
         root.right=new Node(3);
+
     }
 }
