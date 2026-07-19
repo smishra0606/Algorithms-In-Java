@@ -9,6 +9,13 @@ public class basics {
         System.out.println("Top element: " + stack.peek());
         System.out.println("Popped element: " + stack.pop());
         System.out.println("Stack after pop: " + stack);
+        System.out.println("Is stack empty? " + stack.isEmpty());
+        System.out.println("Stack size: " + stack.size());
+        System.out.println("Iterating through stack:");
+        for (Integer element : stack) {
+            System.out.println(element);
+        }
+        
     }
 
 }
